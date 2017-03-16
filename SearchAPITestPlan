@@ -1,0 +1,21 @@
+Introduction:
+This test plan is about the test approach to test Apple's search API which has ability to search for content within the iTunes Store,
+ App Store, iBooks Store and Mac App Store
+
+Objective:
+
+Create a search API client which can get the response from the Search API webservices and write appropriate junit test cases to test 
+the webservice's reponse 
+
+scope:
+
+1. Ability to return proper response by passing all the madatory field, mandatory and optional fields
+2. API should not give sucessful response on not passing the mandatory fields
+3. On passing the two letter country code api should return the country specific results
+4. This API is capable of fetching the result for the below media's
+	movie, podcast, music, musicVideo, audiobook, shortFilm, tvShow, software, ebook
+5. User can specify the limit for the results
+
+Approach:
+
+Design an automation framework to make request to the API 
